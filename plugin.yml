@@ -1,0 +1,14 @@
+name: VS
+version: 0.0.1
+api: [2.0.0]
+main: VS\VS
+load: POSTWORLD
+commands:
+ duel:
+  permission: vs.cmd.duel
+  description: Устроить дуэль!
+  usage: "/duel <игрок>"
+permissions:
+ vs.cmd.duel:
+  description: is not needed here!
+  default: true
